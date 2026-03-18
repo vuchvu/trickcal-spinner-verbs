@@ -4,6 +4,8 @@
 
 Claude Code のスピナーメッセージをトリックカルのリソースダウンロード中の言葉に差し替える設定ファイルです。
 
+![demo](https://github.com/user-attachments/assets/024418db-19b3-4105-a40e-5635c2066422)
+
 | ファイル | 言語 |
 |---|---|
 | `.claude/settings.ko-kr.json` | 한국어 |
