@@ -17,8 +17,8 @@ cp .claude/settings.ko-kr.json .claude/settings.json
 
 ## 유지보수
 
-`verbs` 배열을 가나다순으로 정렬하려면:
+`verbs` 배열을 가나다순으로 정렬하려면([jq](https://jqlang.org/download/) 필요):
 
 ```sh
-bash sort_verbs.sh
+./sort_verbs.sh
 ```

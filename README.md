@@ -23,7 +23,7 @@ cp .claude/settings.ja-jp.json .claude/settings.json
 
 ### 既存の settings.json にマージする
 
-既存の `settings.json` を上書きせずに verb 設定だけ取り込みたい場合は `merge_berbs.sh` を使ってください。
+既存の `settings.json` を上書きせずに verb 設定だけ取り込みたい場合は `merge_berbs.sh` を使ってください。[jq](https://jqlang.org/download/) が必要です。
 
 ```sh
 # ~/.claude/settings.json にマージする（既存の設定は保持されます）
@@ -48,8 +48,8 @@ cp .claude/settings.ja-jp.json .claude/settings.json
 
 ## メンテナンス
 
-`verbs` 配列を50音順にソートするには:
+`verbs` 配列を50音順にソートするには（[jq](https://jqlang.org/download/) が必要です）:
 
 ```sh
-bash sort_verbs.sh
+./sort_verbs.sh
 ```
